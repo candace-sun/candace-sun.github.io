@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> 
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+
+    <link rel="stylesheet" href="public/style.css" type="text/css">
+    <link rel="icon" type="image/png" href="public/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="public/favicon-16x16.png" sizes="16x16" />
+
+    <title>Candace Sun</title>
+</head>
+
+<body> 
+
+    <nav class="mono">
+        <a class="nav-item nav-link" href="#about">ABOUT</a>
+        <a class="nav-item nav-link" href="#skills">SKILLS</a>
+        <a class="nav-item nav-link" href="#experience">EXPERIENCE</a>
+        <a class="nav-item nav-link" href="#projects">PROJECTS</a>
+        <a class="nav-item nav-link" href="#other">OTHER</a>
+        <a class="nav-item nav-link" href="#contact">CONTACT</a>
+        <a class="nav-item nav-link" href="#">TOP ↑</a>
+    </nav> 
+<!-- 
+    <nav class="navbar sticky-top navbar-expand-lg bg-light navbar-light mono">
+        <a class="navbar-brand" href="#">HOME</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#about">ABOUT</a>
+            <a class="nav-item nav-link" href="#skills">SKILLS</a>
+            <a class="nav-item nav-link" href="#experience">EXPERIENCE</a>
+            <a class="nav-item nav-link" href="#projects">PROJECTS</a>
+            <a class="nav-item nav-link" href="#other">OTHER</a>
+          </div>
+        </div>
+      </nav> -->
+    
+    <div class="title-container">
+        <div>
+            <div class="name">Candace<br>Sun</div>
+            <div class="wrap">
+                <div class="line">
+                  <div class="left">
+                    <div class="content">
+                      <span class="spanSlow">Candace</span>
+                    </div>
+                  </div><!--
+                  --><div class="right">
+                    <div class="content">
+                      <span class="spanSlow">Candace</span>
+                    </div>
+                  </div>
+                </div> 
+                  <div class="line">
+                      <div class="left">
+                        <div class="content">
+                          <span class="spanFast">Sun</span>
+                        </div>
+                      </div><!--
+                      --><div class="right">
+                        <div class="content">
+                          <span class="spanFast">Sun</span>
+                        </div>
+                      </div>
+                    </div> 
+            </div>
+            <video id="video-letters" width="520" class="letters"  autoplay loop>
+                <source src="public/letters-vid.webm" type="video/webm"> 
+                Your browser does not support HTML video.
+            </video> 
+            <img src="public/wave.png" class="shape-top" alt="wave line" /> 
+            <video id="video1" width="520" class="goop-big" autoplay loop>
+                <source src="public/blobs-vid.webm" type="video/webm"> 
+                Your browser does not support HTML video.
+              </video>
+
+              <video id="video2" width="520" class="goop-small" autoplay loop>
+                <source src="public/blobs-small2.webm" type="video/webm"> 
+                Your browser does not support HTML video.
+              </video>
+        </div>
+        <div class="mono">
+            <br> 
+            > Computer Science Student<br>
+            > University of Maryland, College Park<br> 
+            > Graduating May 2026<br> 
+            > welcome to my website!
+        </div>
+    </div>
+    
+    <br><br><br href="#about" id="about"><br> 
+
+    <h2 class="header" ><span class="header color">ABOUT</span>ME.md</h2>
+
+    <div class="about-grid">
+        <img src="public/indigo_pfp.png" alt="purple profile pic" width="250" />
+        <p class="para">
+            Hey, I'm Candace! I'm majoring in Computer Science and minoring in General Business at the University 
+            of Maryland, and I was also a part of the <a href="https://scholars.umd.edu/2024-25-programs/media-self-and-society" target="_blank">Media Scholars</a> program. 
+            <br><br>
+            I've loved being creative and designing things since I was young, and I really got interested in 
+            programming because I saw it as a way to make my ideas come to life. Whether it was building websites 
+            and programs for games I played or tinkering with computer vision algorithms in high school, I've 
+            always gotten a thrill from coding. Now, I also enjoy sharing this passion by involving myself in 
+            activities to foster a stronger tech community. 
+        </p>
+    </div>
+
+    <br href="#skills" id="skills"><br>
+
+    <h2 class="header">GET /<span class="header color">skills</span></h2>
+    <pre class="mono" id="skills-list">
+    </pre>
+    <img src="public/wave-down.png" class="shape-middle" alt="wave line" /> 
+
+
+    <br href="#experience" id="experience"><br>
+    <h2 class="header">SELECT * FROM <span class="header color">Experience</span></h2>
+
+    <table class="table table-striped border exp">
+        <thead>
+            <tr>
+                <th>&nbsp;</th>
+                <th>Role</th>
+                <th>Organization</th> 
+                <th>Date</th> 
+            </tr>
+        </thead>
+
+        <!-- T Rowe -->
+        <tbody>
+            <tr>
+                <td><a data-toggle="collapse" data-parent="#accordion" href="#t-rowe">&gt;</a></td>
+                <td><b>Software Engineering Intern</b></td>
+                <td><a href="https://www.troweprice.com/en/us" target="_blank"><img src="public/trp.jpg" class="org-logos"/></a>
+                    &nbsp;T. Rowe Price</td>
+                <td>Summer 2024 (Present)</td> 
+            </tr>
+            <tr>
+                <td colSpan="10" id="t-rowe" class="collapse"> 
+                    Stay tuned!
+                </td>
+            </tr>
+        </tbody>
+
+        <!-- ARLIS -->
+        <tbody>
+            <tr>
+                <td><a data-toggle="collapse" data-parent="#accordion" href="#arlis">&gt;</a></td>
+                <td><b>Research Assistant</b></td>
+                <td><a href="https://www.arlis.umd.edu/" target="_blank"><img src="public/arlis.jpg" class="org-logos"/></a>
+                    &nbsp;UMD Applied Research Laboratory for Intelligence and Security</td>
+                <td>May 2023 - Present</td> 
+            </tr>
+            <tr>
+                <td colSpan="10" id="arlis" class="collapse">
+                    <div class="badges"><i>Tools</i>: 
+                        <span class="badge badge-info">AWS</span>
+                        <span class="badge badge-info">Flask</span>
+                        <span class="badge badge-info">APIs</span>
+                        <span class="badge badge-info">Python</span> 
+                        <span class="badge badge-info">React</span> 
+                    </div>
+                    I worked with AWS infrastructure and a Flask REST API backend to support development of a parallelized, 
+                    scalable cloud platform for simulated testing of autonomous vehicles, collaborating within a 10-member team.
+                </td>
+            </tr>
+        </tbody>
+
+        <!-- GDSC -->
+        <tbody>
+            <tr>
+                <td><a data-toggle="collapse" data-parent="#accordion" href="#gdsc">&gt;</a></td>
+                <td><b>Marketing Lead</b></td>
+                <td><a href="https://gdsc.community.dev/university-of-maryland-college-park-united-states/" target="_blank">
+                    <img src="public/gdsc.jpg" class="org-logos"/></a>
+                    &nbsp;Google Developer Student Club @ UMD</td>
+                <td>Sep 2022 - Present</td> 
+            </tr>
+            <tr>
+                <td colSpan="10" id="gdsc" class="collapse">
+                    <div class="badges"><i>Tools</i>: 
+                        <span class="badge badge-info">Gemini AI</span> 
+                        <span class="badge badge-info">React</span>
+                        <span class="badge badge-info">Canva</span> 
+                    </div>
+                    Manage the Marketing Team by creating event schedules and delegating tasks from start to end. Promote Google 
+                    technologies and career-building workshops with engaging designs made with Canva and Adobe Illustrator. 
+                    Direct outreach and expand our presence on social media, with 50+ RSVPs for events and a 44% increase in following.
+                </td>
+            </tr>
+        </tbody>
+
+        <!-- GWC -->
+        <tbody>
+            <tr>
+                <td><a data-toggle="collapse" data-parent="#accordion" href="#gwc">&gt;</a></td>
+                <td><b>Tech Chair</b></td>
+                <td><a href="https://gwcumd.github.io/" target="_blank"><img src="public/gwc.jpg" class="org-logos"/></a>
+                    &nbsp;Girls Who Code @ UMD</td>
+                <td>Mar 2023 - Present</td> 
+            </tr>
+            <tr>
+                <td colSpan="10" id="gwc" class="collapse">
+                    <div class="badges"><i>Tools</i>: 
+                        <span class="badge badge-info">HTML</span>
+                        <span class="badge badge-info">CSS</span> 
+                        <span class="badge badge-info">JavaScript</span>
+                        <span class="badge badge-info">p5.js</span>
+                        <span class="badge badge-info">Figma</span>
+                    </div>
+                    As Tech Chair and the leader of the Tech Committee, I've spearheaded the development of our new chapter website to support 
+                    outreach efforts, primarily coordinating its design and implementation. I've also created material such as project code 
+                    and general content for our workshop lessons, available to middle and high school aged girls.
+                </td>
+            </tr>
+        </tbody>
+
+        <!-- FC -->
+        <tbody>
+            <tr>
+                <td><a data-toggle="collapse" data-parent="#accordion" href="#fc">&gt;</a></td>
+                <td><b>Instructor</b></td>
+                <td><a href="https://fairfaxcollegiate.com/" target="_blank"><img src="public/fc.png" class="org-logos"/></a>
+                    &nbsp;Fairfax Collegiate</td>
+                <td>Jul - Aug 2022</td> 
+            </tr>
+            <tr>
+                <td colSpan="10" id="fc" class="collapse">
+                    <div class="badges"><i>Tools</i>: 
+                        <span class="badge badge-info">JavaScript</span>
+                        <span class="badge badge-info">jQuery</span>
+                        <span class="badge badge-info">HTML</span>
+                        <span class="badge badge-info">CSS</span> 
+                    </div>
+                    Taught 4th to 10th graders DSLR photography, web development, and test prep, designing a variety of fun lessons and 
+                    activities in physical and digital formats. Saw an increase in PSAT scores for all students over two weeks, with an 
+                    average of +22%.
+                </td>
+            </tr>
+        </tbody>
+
+    </table>
+
+    <br href="#projects" id="projects"><br>
+    <h2 class="header">ls <span class="header color">my-projects</span>/</h2>
+
+    <table class="table projs">
+
+        <!-- platepal -->
+        <tbody>
+            <tr>
+                <td><a data-toggle="collapse" data-parent="#accordion" href="#plate-pal">↪</a></td>
+                <td><b><a data-toggle="collapse" data-parent="#accordion" href="#plate-pal">PlatePal</a></b></td>
+                <td><i>Analyze your meals with just one picture</i></td>
+                <td>
+                    2024
+                </td> 
+            </tr>
+            <tr>
+                <td colSpan="10" id="plate-pal" class="collapse"> 
+                    Stay tuned!
+                </td>
+            </tr>
+        </tbody>
+
+        <!-- frc -->
+        <tbody>
+            <tr>
+                <td><a data-toggle="collapse" data-parent="#accordion" href="#frc">↪</a></td>
+                <td><b><a data-toggle="collapse" data-parent="#accordion" href="#frc">FIRST Robotics Pit Scouting</a></b></td>
+                <td><i>Track other robotics teams' data at competitions</i></td>
+                <td>
+                    2024
+                </td> 
+            </tr>
+            <tr>
+                <td colSpan="10" id="frc" class="collapse"> 
+                    Stay tuned!
+                </td>
+            </tr>
+        </tbody>
+
+        <!-- t2t -->
+        <tbody>
+            <tr>
+                <td><a data-toggle="collapse" data-parent="#accordion" href="#t2t">↪</a></td>
+                <td><b><a data-toggle="collapse" data-parent="#accordion" href="#t2t">Terp2Table</a></b></td>
+                <td><i>Crowdsourcing meals in your apartment complex<br>Best Sustainability Hack @ Technica 2023!</i></td>
+                <td>
+                    2023
+                </td> 
+            </tr>
+            <tr>
+                <td colSpan="10" id="t2t" class="collapse"> 
+                    Stay tuned!
+                </td>
+            </tr>
+        </tbody>
+
+        <!-- p2p -->
+        <tbody>
+            <tr>
+                <td><a data-toggle="collapse" data-parent="#accordion" href="#p2p">↪</a></td>
+                <td><b><a data-toggle="collapse" data-parent="#accordion" href="#p2p">Pencil2Print</a></b></td>
+                <td><i>Convert your handwritten notes to text</i></td>
+                <td>
+                    2022
+                </td> 
+            </tr>
+            <tr>
+                <td colSpan="10" id="p2p" class="collapse"> 
+                    Stay tuned!
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br href="#other" id="other"><br>
+    <video id="video1" width="520" class="flowers" autoplay loop>
+        <source src="public/flower-animated.webm" type="video/webm"> 
+        Your browser does not support HTML video.
+      </video>
+
+    <h2 class="header">git checkout my-<span class="header color">other-works</span></h2>
+
+    <div class="mono">
+        <a href="#">graphic design</a> | <a href="#">photography</a> | <a href="#">writing</a>
+    </div><br>
+
+    <div class="para" id="interests">
+        </div>
+        
+    <img src="public/wave-3.png" class="shape-bottom" alt="wave line" />
+ 
+    <script src="https://kit.fontawesome.com/74e2056708.js" crossorigin="anonymous"></script>
+    <footer id="contact" class="mono">
+          <a class="icon" href="https://github.com/candace-sun" target="_blank"><label class="fab fa-github"></label></a>&nbsp
+          <a class="icon" href="https://www.linkedin.com/in/candace-sun/" target="_blank"><label class="fab fa-linkedin"></label></a>&nbsp
+          <a class="icon" href="mailto: candacesun2@gmail.com" target="_blank"><label class="fa fa-envelope"></label></a>&nbsp
+          <br><br> 
+          2024 © Candace Sun
+          <br>
+      </footer>
+ 
+    <script src="index.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
+</body>
+
+</html>
