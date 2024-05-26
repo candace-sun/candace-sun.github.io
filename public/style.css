@@ -325,5 +325,9 @@ a:hover {
     margin-bottom: 3rem;
     top:-3rem;
   }
+
+  table { 
+    font-size: 1.2rem;
+  }
 }
 
