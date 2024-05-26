@@ -129,7 +129,16 @@ label {
   cursor: pointer !important;
 }
 
- 
+.letters {
+  position: absolute;
+  top: 63rem;
+  right: 11rem;
+  width: 230px;
+  opacity: 0.9;
+  filter: saturate(1.2); 
+  visibility: hidden;
+}
+
 
 .table td.collapse.in {
   display: table-cell;
@@ -253,6 +262,11 @@ a:hover {
 
 /* mobile */
 @media screen and (max-width: 600px) { 
+  html {
+    width:100vw;
+    overflow-x: hidden;
+  } 
+
   .about-grid {
     grid-template-rows: auto auto;
     grid-template-columns: auto;
@@ -268,14 +282,14 @@ a:hover {
   }
 
   .name {
-    font-size: 9rem;
+    font-size: 8rem;
   }
 
   .letters {
     position: absolute; 
     top: 13.5rem;
-    right: -4rem;
-    width: 330px; 
+    right: -1rem;
+    width: 310px; 
     visibility: visible;
   }
 
@@ -302,6 +316,7 @@ a:hover {
     top:47rem;
     width:220px;
     right:-7rem;
+    display:none;
   }
 
   .shape-bottom {
