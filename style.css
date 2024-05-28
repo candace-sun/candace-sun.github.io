@@ -60,6 +60,7 @@ body {
   font-size: 13rem;
   line-height: .8;
   display: none;
+  text-shadow: 3px 3px #94bcb1; 
 }
 
 .other-title {
@@ -79,10 +80,11 @@ body {
   line-height: .8; 
   color: #2D3047; 
   transition: all 0.4s ease-in-out;
+  text-shadow: 3px 3px #94bcb1; 
 }
 
 .emphasis-title:hover {
-  text-shadow: 4px 4px #94bcb1; 
+  text-shadow: 6px 6px #94bcb1; 
 
 }
 
@@ -363,10 +365,8 @@ a:hover {
   }
 
   .name {
-    font-size: 8rem;
-    text-decoration: underline;
-    text-decoration-color: #94bcb1;
-    text-decoration-thickness: 5px;
+    font-size: 8rem; 
+    text-transform: uppercase;
   }
 
   .letters {
@@ -411,8 +411,13 @@ a:hover {
   }
 
   table { 
-    font-size: 1.4rem;
+    font-size: 1.35rem;
   } 
+
+  
+  .badge {
+    font-size: 1.35rem;
+  }
 
   
   #top-nav {
