@@ -31,7 +31,7 @@ body {
 .header {
   font-family: "Azeret Mono", monospace;
   font-weight: 600; 
-  margin-bottom: 2rem;
+  margin-bottom: 2rem; 
 }
 
 .color {
@@ -75,16 +75,25 @@ body {
 .emphasis-title {
   font-family: "DM Sans", sans-serif;
   font-style: italic;
-  font-weight: 900;
-  font-size: 7rem;
+  font-weight: 300;
+  font-size: 10rem;
   line-height: .8; 
-  color: #2D3047; 
-  transition: all 0.4s ease-in-out;
-  text-shadow: 3px 3px #94bcb1; 
-}
+  color: #e3e3e1; 
+  transition: all 0.4s ease-in-out;     
 
-.emphasis-title:hover {
-  text-shadow: 6px 6px #94bcb1; 
+}
+ 
+
+.title-divider {
+  height: 50vh;
+  background-color: #2D3047;
+  color: #94bcb1;
+  margin: -3.5rem;
+  margin-right: -5rem; 
+  margin-bottom: -79px;
+  text-align: center;
+  background-image: url("public/wave-bg.svg");
+  background-size: cover;
 
 }
 
@@ -171,9 +180,9 @@ label {
   position: absolute;
   top: 63rem;
   right: 11rem;
-  width: 230px;
+  width: 210px;
   opacity: 0.9;
-  filter: saturate(1.2); 
+  filter: saturate(1.4); 
   visibility: hidden;
 }
 
@@ -204,10 +213,12 @@ pre {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  padding: 1.5rem;
+  padding: 1.5rem; 
   background-color: #EFEEEC;
   z-index: 200;
-  border-bottom: 3px solid #2D3047;
+  border-bottom: 3px solid #2D3047; 
+  margin-left: -3.5rem;
+  margin-right: -5rem;
   margin-bottom: 8rem;
 }
 
@@ -223,6 +234,8 @@ pre {
   z-index: 200;
   border-bottom: 3px solid #2D3047;
   margin-bottom: 5rem;
+  margin: -3.5rem;
+  margin-right: -5rem;  
 }
 
 a, a:active, a:focus {
@@ -285,11 +298,11 @@ a:hover {
 }
 .left {
   color:#94bcb1;
-  transform: skew(0deg, -15deg);
+  transform: skew(0deg, -15deg); 
 }
 .right {
   color: #2D3047;
-  transform: skew(0deg, 15deg);
+  transform: skew(0deg, 15deg); 
 }
 .left .content {
   width: 50vw;
@@ -329,6 +342,7 @@ a:hover {
     width: 100%;
     aspect-ratio: 1; /* To make them a square */
     object-fit: cover;
+    border: 2px solid #2D3047;
 }
 
 /* mobile */
@@ -359,27 +373,37 @@ a:hover {
   .other-pages-nav { 
     flex-direction: column;
     flex-wrap: wrap; 
-    padding: 3rem; 
-    margin-bottom: 8rem;
+    padding: 3rem;  
     margin-top: 4rem;
+    outline:3px solid #EFEEEC;
   }
 
   .name {
     font-size: 8rem; 
     text-transform: uppercase;
+    text-shadow: 4px 4px #94bcb1; 
+
+  }
+
+  .emphasis-title {
+    font-size: 7rem; 
+    text-transform: uppercase; 
+    -webkit-text-stroke: 2px #2D3047; 
+    text-shadow:  3px 3px #2D3047,4px -4px #94bcb1;
+    font-weight: 900;
   }
 
   .letters {
     position: absolute; 
-    top: 13.5rem;
-    right: -1rem;
-    width: 310px; 
+    top: 12.5rem;
+    right: 2rem;
+    width: 260px; 
     visibility: visible;
   }
 
   .title-container {
     margin-top: -3rem;
-    row-gap:7rem;
+    row-gap:5rem;
     margin-bottom: -7rem;
   }
 
@@ -390,6 +414,7 @@ a:hover {
 
   .name {
     display: block;
+    font-size: 6.5rem;
   }
 
   .goop-big, .goop-small {
@@ -423,6 +448,11 @@ a:hover {
   #top-nav {
     display: none;
   }
+
+  
+  .title-divider {
+    height: 22vh;
+  } 
  
 }
 
