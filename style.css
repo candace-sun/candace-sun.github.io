@@ -340,6 +340,7 @@ a:hover {
 
   body {
     margin-top: -5rem;
+    padding:2rem;
   }
 
   .about-grid {
@@ -395,8 +396,8 @@ a:hover {
     margin-left: -5rem;
     margin-right: -5rem;
     padding: 5rem;
-    padding-bottom:20rem;
-    padding-top:8rem;
+    padding-bottom:19rem;
+    padding-top:7rem;
     background-image: url("public/mobile-steps-bg.svg");
     background-position: bottom;
     background-size: contain;
