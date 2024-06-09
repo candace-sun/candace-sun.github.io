@@ -8,8 +8,10 @@ let skills =
 let interests = 
 `I also enjoy:<br>
 > Hiking<br>
-> Music and curating playlists <br>
+> Music, and curating playlists <br>
 > Jewelry making<br>
+> Hitting the gym<br>
+> Learning about birds<br>
 > Watching TED Talks :)`;
 
 document.getElementById("skills-list").innerHTML = skills;

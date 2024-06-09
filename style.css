@@ -53,16 +53,6 @@ body {
 
 }
 
-.name {
-  font-family: "DM Sans", sans-serif;
-  font-style: italic;
-  font-weight: 900;
-  font-size: 13rem;
-  line-height: .8;
-  display: none;
-  text-shadow: 3px 3px #94bcb1; 
-}
-
 .other-title {
   font-family: "DM Sans", sans-serif;
   font-style: italic;
@@ -82,8 +72,7 @@ body {
   transition: all 0.4s ease-in-out;     
 
 }
- 
-
+  
 .title-divider {
   height: 50vh;
   background-color: #2D3047;
@@ -95,18 +84,7 @@ body {
   background-image: url("public/wave-bg.svg");
   background-size: cover;
 
-}
-
-.letters {
-  visibility: hidden;
-}
-
-.flowers {
-  position: absolute; 
-  width: 650px; 
-  right:0rem;
-  display:none;
-}
+} 
 
 .goop-big {
   position: absolute; 
@@ -175,18 +153,7 @@ label {
   color:#94bcb1; 
   cursor: pointer !important;
 }
-
-.letters {
-  position: absolute;
-  top: 63rem;
-  right: 11rem;
-  width: 210px;
-  opacity: 0.9;
-  filter: saturate(1.4); 
-  visibility: hidden;
-}
-
-
+ 
 .table td.collapse.in {
   display: table-cell;
 } 
@@ -204,8 +171,7 @@ pre {
   row-gap: 9rem;
   margin-bottom: 6rem;
 }
- 
-
+  
 .index-nav {
   position: -webkit-sticky; /* Safari */
   position: sticky;
@@ -337,12 +303,28 @@ a:hover {
     gap: 15px;
 }
 
+.item {
+  line-height: 80%;
+  text-align: center;
+}
+
 .item > img {
     border-radius: 5px;
     width: 100%;
     aspect-ratio: 1; /* To make them a square */
     object-fit: cover;
-    border: 2px solid #2D3047;
+    border: 2px solid #2D3047; 
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.caption { 
+  font-size: 1.4rem;  
+  font-family: "Azeret Mono", monospace; 
 }
 
 /* mobile */
@@ -374,37 +356,46 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap; 
     padding: 3rem;  
-    margin-top: 4rem;
-    outline:3px solid #EFEEEC;
+    margin-top: 4rem; 
   }
 
   .name {
     font-size: 8rem; 
-    text-transform: uppercase;
-    text-shadow: 4px 4px #94bcb1; 
+    text-transform: uppercase;  
+    font-family: "DM Sans", sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    line-height: .8;
+    display: none; 
+    color:#94bcb1;
+  }
 
+  .mobile-subtitle {
+    color:#e1e0de;
+    font-size: 1.4rem;
   }
 
   .emphasis-title {
     font-size: 7rem; 
     text-transform: uppercase; 
     -webkit-text-stroke: 2px #2D3047; 
-    text-shadow:  3px 3px #2D3047,4px -4px #94bcb1;
-    font-weight: 900;
-  }
-
-  .letters {
-    position: absolute; 
-    top: 12.5rem;
-    right: 2rem;
-    width: 260px; 
-    visibility: visible;
-  }
+    text-shadow:  3px 3px #2D3047,3px -3px #94bcb1;
+    font-weight: 900; 
+  } 
 
   .title-container {
-    margin-top: -3rem;
+    margin-top: -8rem;
     row-gap:5rem;
     margin-bottom: -7rem;
+    background-color: #2D3047;
+    margin-left: -5rem;
+    margin-right: -5rem;
+    padding: 5rem;
+    padding-bottom:20rem;
+    padding-top:8rem;
+    background-image: url("public/mobile-steps-bg.svg");
+    background-position: bottom;
+    background-size: contain;
   }
 
   .wrap {
@@ -415,6 +406,7 @@ a:hover {
   .name {
     display: block;
     font-size: 6.5rem;
+    margin-bottom: -2rem;   
   }
 
   .goop-big, .goop-small {
@@ -451,8 +443,16 @@ a:hover {
 
   
   .title-divider {
-    height: 22vh;
+    height: 27vh;
+    margin-bottom: -8rem;
   } 
  
+  
+  .shape-middle {  
+    left:7rem; 
+    top:-5rem;
+    width: 230px; 
+
+  }
 }
 
