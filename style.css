@@ -86,6 +86,10 @@ body {
 
 } 
 
+.name {
+  display: none;
+}
+
 .goop-big {
   position: absolute; 
   width: 650px; 
