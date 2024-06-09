@@ -322,6 +322,9 @@ a:hover {
     margin-top: 1rem;
 }
 
+.pfp {  
+}
+
 .underline {
   text-decoration: underline;
 }
@@ -389,7 +392,7 @@ a:hover {
   } 
 
   .title-container {
-    margin-top: -8rem;
+    margin-top: -8.5rem;
     row-gap:5rem;
     margin-bottom: -7rem;
     background-color: #2D3047;
@@ -401,6 +404,7 @@ a:hover {
     background-image: url("public/mobile-steps-bg.svg");
     background-position: bottom;
     background-size: contain;
+    justify-content:center; 
   }
 
   .wrap {
@@ -457,7 +461,10 @@ a:hover {
     left:7rem; 
     top:-5rem;
     width: 230px; 
+  }
 
+  .subhead-snap {
+    display: none;
   }
 }
 
