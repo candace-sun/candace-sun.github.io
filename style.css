@@ -129,7 +129,6 @@ p {
   right: -5rem;
   width: 500px;
   z-index: -1;
-  margin-bottom: -23rem;
 }
 
 .bottom-grid {
@@ -137,15 +136,17 @@ p {
   justify-content: space-between;
   grid-template-columns: auto auto;
   grid-template-rows: 50vh;
+  margin-bottom: -7rem;
+  max-height: 290px;
 }
 
 footer {
   color: #e1e0de;
-  margin-top: 50px;
   padding: 30px;
   text-align: center;
   background: #2d3047;
   margin: -3.5rem;
+  margin-top: 50px;
   margin-right: -5rem;
 }
 
@@ -637,6 +638,7 @@ a:hover {
     right: 2rem;
     width: 250px;
     top: 4rem;
+    margin-bottom: -7rem;
   }
 
   table {
@@ -672,7 +674,9 @@ a:hover {
     display: grid;
     grid-template-columns: 70% 30%;
     grid-template-rows: 29vh;
-    margin-bottom: 30px;
+    height: auto;
+    margin-bottom: 0rem;
+    max-height: 210px;
   }
 
   .mobile {

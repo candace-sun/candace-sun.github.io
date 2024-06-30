@@ -1,115 +1,118 @@
-let base_url = "public/photography/";
+let base_url = "public/photography-compressed/";
 let file_map = {
+    "Iceland": [
+        ["iceland/glacier.jpg", 'medium'],
+        ["iceland/svartifoss.jpg", 'medium'],
+        ["iceland/puffin-sunny.jpg", 'medium'],
+        ["iceland/valley.jpg", 'medium'],
+        ["iceland/thermal-features.jpg", 'medium'],
+        ["iceland/black-cliffs.jpg", 'large'],
+        ["iceland/godafoss.jpg", 'medium'],
+        ["iceland/glacier-reflection.jpg", 'medium'],
+
+        ["iceland/rainbow.jpg", 'medium'],
+        ["iceland/horses.jpg", 'medium'],
+        ["iceland/black-sand-water.jpg", 'medium'],
+        ["iceland/flowers-closeup.jpg", 'large'],
+        ["iceland/sunset-glacier.jpg", 'medium'],
+        ["iceland/town.jpg", 'medium'],
+        ["iceland/sunny-beach.jpg", 'medium'],
+        ["iceland/puffin-dark.jpg", 'medium'],
+        ["iceland/black-sand-shore.jpg", 'medium'],
+        ["iceland/sheep.jpg", 'medium'],
+        ["iceland/mountain.jpg", 'medium'],
+
+    ],
     "San Diego": [
-        [base_url + "san-diego/bird-forward.jpg", 'medium'],
-        [base_url + "san-diego/seals.jpg", 'medium'],
-        [base_url + "san-diego/sd-park.jpg", 'large'],
-        [base_url + "san-diego/seagull-flowers.jpg", 'medium'],
-        [base_url + "san-diego/seal-splash.jpg", 'large'],
-        [base_url + "san-diego/surfer.jpg", 'medium'],
-        [base_url + "san-diego/seals-basking.jpg", 'large'],
-        [base_url + "san-diego/wall-of-birds.jpg", 'medium'],
-        [base_url + "san-diego/yellow-bird.jpeg", 'medium'],
-        [base_url + "san-diego/hummingbird.jpg", 'large'],
-        [base_url + "san-diego/koala.jpg", 'medium'],
-        [base_url + "san-diego/flamingos.jpg", 'medium'],
-        [base_url + "san-diego/ocean-view.jpg", 'medium'],
-        [base_url + "san-diego/fluffy-bird.jpg", 'medium'],
+        ["san-diego/bird-forward.jpg", 'medium'],
+        ["san-diego/seals.jpg", 'medium'],
+        ["san-diego/sd-park.jpg", 'large'],
+        ["san-diego/seagull-flowers.jpg", 'medium'],
+        ["san-diego/seal-splash.jpg", 'large'],
+        ["san-diego/surfer.jpg", 'medium'],
+        ["san-diego/seals-basking.jpg", 'large'],
+        ["san-diego/wall-of-birds.jpg", 'medium'],
+        ["san-diego/yellow-bird.jpeg", 'medium'],
+        ["san-diego/hummingbird.jpg", 'large'],
+        ["san-diego/koala.jpg", 'medium'],
+        ["san-diego/flamingos.jpg", 'medium'],
+        ["san-diego/ocean-view.jpg", 'medium'],
+        ["san-diego/fluffy-bird.jpg", 'medium'],
 
     ],
     "NYC": [
-        [base_url + "nyc/buses.jpg", 'medium'],
-        [base_url + "nyc/central-park.jpeg", 'medium'],
-        [base_url + "nyc/city-morning.jpg", 'large'],
-        [base_url + "nyc/tower.jpeg", 'large'],
-        [base_url + "nyc/nyc-building.jpg", 'large'],
-        [base_url + "nyc/moon.jpg", 'medium'],
-        [base_url + "nyc/pizza-store.jpg", 'medium'],
-        [base_url + "nyc/traffic.jpg", 'large'],
-        [base_url + "nyc/chinatown.jpg", 'large'],
-        [base_url + "nyc/looking-up.jpg", 'large'],
-        [base_url + "nyc/soccer.jpg", 'medium'],
-
-    ],
-    "Iceland": [
-        [base_url + "iceland/glacier.jpg", 'medium'],
-        [base_url + "iceland/svartifoss.jpg", 'medium'],
-        [base_url + "iceland/puffin-sunny.jpg", 'medium'],
-        [base_url + "iceland/valley.jpg", 'medium'],
-        [base_url + "iceland/thermal-features.jpg", 'medium'],
-        [base_url + "iceland/black-cliffs.jpg", 'large'],
-        [base_url + "iceland/godafoss.jpg", 'medium'],
-        [base_url + "iceland/glacier-reflection.jpg", 'medium'],
-
-        [base_url + "iceland/rainbow.jpg", 'medium'],
-        [base_url + "iceland/horses.jpg", 'medium'],
-        [base_url + "iceland/black-sand-water.jpg", 'medium'],
-        [base_url + "iceland/flowers-closeup.jpg", 'large'],
-        [base_url + "iceland/sunset-glacier.jpg", 'medium'],
-        [base_url + "iceland/town.jpg", 'medium'],
-        [base_url + "iceland/sunny-beach.jpg", 'medium'],
-        [base_url + "iceland/puffin-dark.jpg", 'medium'],
-        [base_url + "iceland/black-sand-shore.jpg", 'medium'],
-        [base_url + "iceland/sheep.jpg", 'medium'],
-        [base_url + "iceland/mountain.jpg", 'medium'],
+        ["nyc/buses.jpg", 'medium'],
+        ["nyc/central-park.jpeg", 'medium'],
+        ["nyc/city-morning.jpg", 'large'],
+        ["nyc/tower.jpeg", 'large'],
+        ["nyc/nyc-building.jpg", 'large'],
+        ["nyc/moon.jpg", 'medium'],
+        ["nyc/pizza-store.jpg", 'medium'],
+        ["nyc/traffic.jpg", 'large'],
+        ["nyc/chinatown.jpg", 'large'],
+        ["nyc/looking-up.jpg", 'large'],
+        ["nyc/soccer.jpg", 'medium'],
 
     ],
     "Portugal": [
-        [base_url + "portugal/fairyland.jpg", 'large'],
-        [base_url + "portugal/ocean-cliffs.jpg", 'medium'],
-        [base_url + "portugal/palace.jpg", 'large'],
-        [base_url + "portugal/palace-tower.jpg", 'large'],
-        [base_url + "portugal/peacock.jpeg", 'medium'],
-        [base_url + "portugal/stairs.jpg", 'large'],
-        [base_url + "portugal/fireworks.jpg", 'large'],
-        [base_url + "portugal/viewing-the-viewpoint.jpg", 'medium'],
-        [base_url + "portugal/yellow-walls.jpg", 'large'],
-        [base_url + "portugal/horse.jpg", 'medium'],
-        [base_url + "portugal/bookstore.jpg", 'large'],
-        [base_url + "portugal/blue-tiles.jpg", 'large'],
-        [base_url + "portugal/church-ceiling.jpg", 'large'],
-        [base_url + "portugal/ducks.jpg", 'large'],
-        [base_url + "portugal/night-lightpaint.jpg", 'medium'],
-        [base_url + "portugal/local-dog.jpg", 'large'],
-        [base_url + "portugal/between-buildings.jpg", 'large'],
-        [base_url + "portugal/castle.jpg", 'large'],
-        [base_url + "portugal/sandpiper.jpg", 'medium'],
-        [base_url + "portugal/bridge.jpeg", 'large'],
-        [base_url + "portugal/train-station.jpg", 'large'],
-        [base_url + "portugal/shadow-in-field.jpg", 'large'],
-        [base_url + "portugal/bird-and-statue.jpg", 'medium'],
+        ["portugal/fairyland.jpg", 'large'],
+        ["portugal/ocean-cliffs.jpg", 'medium'],
+        ["portugal/palace.jpg", 'large'],
+        ["portugal/palace-tower.jpg", 'large'],
+        ["portugal/peacock.jpeg", 'medium'],
+        ["portugal/stairs.jpg", 'large'],
+        ["portugal/fireworks.jpg", 'large'],
+        ["portugal/viewing-the-viewpoint.jpg", 'medium'],
+        ["portugal/yellow-walls.jpg", 'large'],
+        ["portugal/horse.jpg", 'medium'],
+        ["portugal/bookstore.jpg", 'large'],
+        ["portugal/blue-tiles.jpg", 'large'],
+        ["portugal/church-ceiling.jpg", 'large'],
+        ["portugal/ducks.jpg", 'large'],
+        ["portugal/night-lightpaint.jpg", 'medium'],
+        ["portugal/local-dog.jpg", 'large'],
+        ["portugal/between-buildings.jpg", 'large'],
+        ["portugal/castle.jpg", 'large'],
+        ["portugal/sandpiper.jpg", 'medium'],
+        ["portugal/bridge.jpeg", 'large'],
+        ["portugal/train-station.jpg", 'large'],
+        ["portugal/shadow-in-field.jpg", 'large'],
+        ["portugal/bird-and-statue.jpg", 'medium'],
 
     ],
     "Night in DC": [
-        [base_url + "night-in-dc/car-1.jpg", 'medium'],
-        [base_url + "night-in-dc/neon-sign.jpg", 'large'],
-        [base_url + "night-in-dc/night_duck.jpg", 'large'],
-        [base_url + "night-in-dc/store-reflections.jpg", 'xlarge'],
-        [base_url + "night-in-dc/empty.jpg", 'medium'],
-        [base_url + "night-in-dc/streetlights.jpg", 'large'],
-        [base_url + "night-in-dc/car-2.jpg", 'medium'],
+        ["night-in-dc/car-1.jpg", 'medium'],
+        ["night-in-dc/neon-sign.jpg", 'large'],
+        ["night-in-dc/night_duck.jpg", 'large'],
+        ["night-in-dc/store-reflections.jpg", 'xlarge'],
+        ["night-in-dc/empty.jpg", 'medium'],
+        ["night-in-dc/streetlights.jpg", 'large'],
+        ["night-in-dc/car-2.jpg", 'medium'],
 
     ],
     "Summer": [
-        [base_url + "summer/porch.jpg", 'large'],
-        [base_url + "summer/grand-teton.jpg", 'medium'],
-        [base_url + "summer/mckeldin.jpg", 'large'],
-        [base_url + "summer/bubbles.jpg", 'medium'],
-        [base_url + "summer/waterfall.jpg", 'large'],
-        [base_url + "summer/heron.jpg", 'large'],
-        [base_url + "summer/lichen.jpg", 'medium'],
-        [base_url + "summer/female-blackbird.jpg", 'medium'],
+        ["summer/porch.jpg", 'large'],
+        ["summer/grand-teton.jpg", 'medium'],
+        ["summer/mckeldin.jpg", 'large'],
+        ["summer/bubbles.jpg", 'medium'],
+        ["summer/waterfall.jpg", 'large'],
+        ["summer/heron.jpg", 'large'],
+        ["summer/lichen.jpg", 'medium'],
+        ["summer/female-blackbird.jpg", 'medium'],
 
     ],
 };
 
 function renderGallery(category) {
+    document.getElementById("button-selection").innerHTML = category;
+
     const gallery = document.getElementById("gallery");
     gallery.innerHTML = '';
 
     file_map[category].forEach(([url, size]) => {
         let item = document.createElement("div");
-        item.style.backgroundImage = `url(${url})`;
+        let min_url = url.replace('.','-min.');
+        item.style.backgroundImage = `url(${base_url + min_url})`;
         item.classList.add('photoItem--' + size);
         console.log('photoItem--' + size);
         item.classList.add('photoItem');
@@ -130,7 +133,7 @@ function renderGallery(category) {
             caption.classList.add('modal-caption');
 
             modal.style.display = "block";
-            modalImg.src = url;
+            modalImg.src = base_url + min_url;
             caption.innerHTML = url;
             close.innerHTML = "&times;";
             
@@ -159,7 +162,6 @@ Object.keys(file_map).forEach((category) => {
     inputElement.value = category;
     inputElement.addEventListener('click', function(){
         renderGallery(category);
-        document.getElementById("button-selection").innerHTML = category;
     });
 
     let button_list = document.getElementById("button-list");
@@ -167,4 +169,4 @@ Object.keys(file_map).forEach((category) => {
 });
 
 
-renderGallery("San Diego");
+renderGallery("Iceland");
