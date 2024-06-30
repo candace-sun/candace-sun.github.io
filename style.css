@@ -323,6 +323,7 @@ a:hover {
 }
 
 .pfp {  
+  border-bottom: 7px solid #2D3047;
 }
 
 .underline {
@@ -339,6 +340,8 @@ a:hover {
   html {
     width:100vw;
     overflow-x: hidden;
+    scroll-behavior: smooth !important;
+    scroll-snap-stop:initial;
   } 
 
   body {
@@ -461,6 +464,7 @@ a:hover {
     left:7rem; 
     top:-5rem;
     width: 230px; 
+    margin-bottom: -2rem;
   }
 
   .subhead-snap {

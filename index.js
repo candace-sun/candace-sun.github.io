@@ -12,7 +12,7 @@ let interests =
 > Jewelry making<br>
 > Hitting the gym<br>
 > Learning about birds<br>
-> Watching TED Talks :)`;
+> Watching TED Talks :)<br>`;
 
 document.getElementById("skills-list").innerHTML = skills;
 document.getElementById("interests").innerHTML = interests; 

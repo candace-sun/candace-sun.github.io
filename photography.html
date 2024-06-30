@@ -16,11 +16,46 @@
     <link rel="icon" type="image/png" href="public/favicon-32x32.png" sizes="32x32" />
     <link rel="icon" type="image/png" href="public/favicon-16x16.png" sizes="16x16" />
 
-    <title>Candace Sun</title>
+    <title>Candace Sun - Photography</title>
 </head>
 
-<body> 
+<body id="body"> 
+    <nav class="mono other-pages-nav">
+        <a class="nav-item nav-link" href="index.html">HOME</a>
+        <a class="nav-item nav-link" href="photography.html">PHOTOGRAPHY</a>
+        <a class="nav-item nav-link" href="graphics.html">GRAPHIC DESIGN</a>
+        <a class="nav-item nav-link" href="writing.html">WRITING</a>  
+    </nav> 
 
+    <div class="title-divider photo-header">
+    </div>
+
+    <div class="emphasis-title desktop">PHOTOGRAPHY</div>
+    <div class="emphasis-title mobile">PHOTO<br>-GRAPHY</div><br><br> 
+
+    <div class="para">
+        <b class="mono">capturing colors, memories, and fleeting moments ✨</b><br>---<br><br>
+
+        <div class="about-grid">
+            <img src="public/photography/misc/me.jpg" alt="purple profile pic" class="pfp" width="250" />
+            <p class="para">
+                I've had the opportunity to travel a lot of amazing places, and I've been able to try my hand at photographing a variety of scenes! I particularly like landscapes (waterfalls are definitely my favorite), animals (birds especially 😊), and eye-catching architecture. 
+                <br><br>
+                My gear includes: a little Panasonic Lumix point-and-shoot camera, my phone, and occasionally a tripod and some pretty cheap ND filters.<br><br>
+
+                Pictured: me with my tripod at Seljalandsfoss, Iceland, very soaked
+            </p>
+        </div>
+    <br>
+    </div>
+
+    <div style="margin-bottom: 10px;"><b>Click the buttons below</b> to see the corresponding gallery I've curated :)</div>
+    <div id="button-list"></div><br>
+    <div>Currently viewing: <b id="button-selection">San Diego</b></div><br>
+
+    <div class="photography-grid" id="gallery"></div>
+
+    <br><br><br><br>
 
     <script src="https://kit.fontawesome.com/74e2056708.js" crossorigin="anonymous"></script>
     <footer id="contact" class="mono">
@@ -29,11 +64,15 @@
           <a class="icon" href="mailto: candacesun2@gmail.com" target="_blank"><label class="fa fa-envelope"></label></a>&nbsp
           <br><br> 
           2024 © Candace Sun
+          <br> <br>
+          <a id="footer-top" href="#">TOP ↑</a>
           <br>
       </footer>
   
+    <script src="photography.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  
 </body>
 </html>
