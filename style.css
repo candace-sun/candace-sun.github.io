@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
 
+html {scroll-behavior: smooth;}
+
 body {
   background-color: #efeeec;
   font-family: "DM Sans", sans-serif;
@@ -95,7 +97,7 @@ p {
   position: absolute;
   width: 650px;
   right: -14rem;
-  top: 30rem;
+  top: 28rem;
   overflow: hidden;
 }
 
@@ -110,7 +112,7 @@ p {
   position: absolute;
   width: 410px;
   right: 1rem;
-  top: 27rem;
+  top: 26rem;
   z-index: -1;
 }
 
@@ -174,6 +176,8 @@ label {
 pre {
   color: #2d3047;
   font-size: 1.5rem;
+  
+  box-shadow: 0 20px 25px -25px #2d3047;
 }
 
 .title-container {
@@ -184,6 +188,44 @@ pre {
   row-gap: 9rem;
   margin-bottom: 6rem;
 }
+
+.peaks-divider {
+  position: relative;
+  width: 100vw;
+  left: 0;
+  /* top: 51px; */
+  top: 45px;
+  margin-left: -3.5rem;
+  margin-right: -3.5rem;
+  margin-bottom: -20px;
+  background-image: url("public/layered-peaks-cut.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 0;
+  padding-top: 13.3%; 
+  z-index: -2;
+  transition: background-image 0.3s ease;
+}
+
+#peaks-inv {
+  background-image: url("public/layered-peaks-inv-cut.svg");
+  opacity: 0;
+  z-index: 1;
+  position: absolute;
+  left: 3rem;
+  top: 504.5px;
+  margin-right: -5rem;
+  transition: opacity .5s ease-out;
+  -moz-transition: opacity .5s ease-out;
+  -webkit-transition: opacity .5s ease-out;
+  box-shadow:none;
+}
+
+
+#peaks-inv:hover {
+  opacity: 1;
+}
+
 
 .index-nav {
   position: -webkit-sticky; /* Safari */
@@ -199,6 +241,9 @@ pre {
   margin-left: -3.5rem;
   margin-right: -5rem;
   margin-bottom: 8rem;
+  align-items: center;
+  
+  box-shadow: 0 10px 25px -25px #2d3047;
 }
 
 .other-pages-nav {
@@ -215,6 +260,8 @@ pre {
   margin-bottom: 5rem;
   margin: -3.5rem;
   margin-right: -5rem;
+
+  box-shadow: 0 20px 25px -25px #2d3047;
 }
 
 a,
@@ -250,6 +297,14 @@ a:hover {
 
 .exp {
   border: 1.5px solid #dddddd;
+}
+
+.table {
+  box-shadow: 0 20px 25px -25px #2d3047;
+}
+
+.projs {
+  box-shadow:none;
 }
 
 .projs > tr,
@@ -336,12 +391,15 @@ a:hover {
   aspect-ratio: 1; /* To make them a square */
   object-fit: cover;
   border: 2px solid #2d3047;
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
   margin-top: 1rem;
+
+  box-shadow: 0 12px 15px -15px #2d3047;
 }
 
 .pfp {
   border-bottom: 7px solid #2d3047;
+  box-shadow: 0 20px 25px -25px #2d3047;
 }
 
 .underline {
@@ -689,5 +747,9 @@ a:hover {
 
   .photo-header {
     background-image: url("public/photography-header-mobile.svg");
+  }
+
+  .peaks-divider {
+    display: none;
   }
 }
