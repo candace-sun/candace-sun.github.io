@@ -22,12 +22,12 @@
 <body> 
 
     <nav class="mono index-nav">
-        <a href="#"><img src="public/favi-rounded.png" width="32"/></a>
+        <a class="nav-item nav-link" href="#"><img src="public/favi-rounded.png" width="32"/></a>
         <a class="nav-item nav-link" href="#about">ABOUT</a>
         <a class="nav-item nav-link" href="#skills">SKILLS</a>
         <a class="nav-item nav-link" href="#experience">EXPERIENCE</a>
         <a class="nav-item nav-link" href="#projects">PROJECTS</a>
-        <a class="nav-item nav-link" href="#other">OTHER</a>
+        <a class="nav-item nav-link" href="#hobbies">HOBBIES</a>
         <a class="nav-item nav-link" href="#contact">CONTACT</a>
         <a class="nav-item nav-link" href="#">TOP ↑</a>
         <p></p>
@@ -35,7 +35,7 @@
 
     <div class="title-container">
         <div>
-            <div class="name">Candace<br>Sun<span style="color:#e1e0de">_</span></div>
+            <div class="name">Candace<br>Sun<span style="color:#e1e0de" class="blink">_</span></div>
             <div class="wrap">
                 <div class="line">
                   <div class="left">
@@ -75,14 +75,17 @@
         </div>
         <div class="mono mobile-subtitle">
             <br> 
-            > Computer Science Student<br>
-            > University of Maryland, College Park<br> 
-            > Graduating May 2026<br> 
-            > welcome to my website!
+            • Computer Science Student<br>
+            • University of Maryland, College Park<br> 
+            • Graduating Spring 2026<br> 
+            • Based in Northern VA
         </div>
     </div>
 
     <div class="peaks-divider" id="peaks"></div>
+    <div class="divider-bottom mono">
+        <span class="purple">$</span> echo "Welcome to my website! :)"<span class="blink">|</span>
+    </div>
     
     <br><br><br href="#about" id="about" class="subhead-snap"><br> 
 
@@ -158,7 +161,7 @@
                         <span class="badge badge-info">React</span> 
                     </div>
                     I worked with AWS infrastructure and a Flask REST API backend to support development of a parallelized, 
-                    scalable cloud platform for simulated testing of autonomous vehicles, collaborating within a 10-member team.
+                    scalable cloud platform for simulated testing of autonomous vehicles, increasing data collection efficiency by 10x.
                 </td>
             </tr>
         </tbody>
@@ -182,7 +185,7 @@
                     </div>
                     Manage the Marketing Team by creating event schedules and delegating tasks from start to end. Promote Google 
                     technologies and career-building workshops with engaging designs made with Canva and Adobe Illustrator. 
-                    Direct outreach and expand our presence on social media, with 50+ RSVPs for events and a 44% increase in following.
+                    Direct outreach and expand our presence on social media, with 90+ RSVPs for events and a 48% increase in following.
                 </td>
             </tr>
         </tbody>
@@ -205,7 +208,7 @@
                         <span class="badge badge-info">p5.js</span>
                         <span class="badge badge-info">Figma</span>
                     </div>
-                    As Tech Chair and the leader of the Tech Committee, I've spearheaded the development of our new chapter website to support 
+                    As Tech Chair and the leader of the Tech Committee, I've spearheaded the development of a new chapter website for our 180+ members to support 
                     outreach efforts, primarily coordinating its design and implementation. I've also created material such as project code 
                     and general content for our workshop lessons, available to middle and high school aged girls.
                 </td>
@@ -231,7 +234,7 @@
                     </div>
                     Taught 4th to 10th graders DSLR photography, web development, and test prep, designing a variety of fun lessons and 
                     activities in physical and digital formats. Saw an increase in PSAT scores for all students over two weeks, with an 
-                    average of +22%.
+                    average of +22%. Created a sample final project game with jQuery for my web development students (<a href="https://github.com/candace-sun/simon-says" target="_blank">GitHub here</a>).
                 </td>
             </tr>
         </tbody>
@@ -241,80 +244,75 @@
     <br href="#projects" id="projects" class="subhead-snap"><br>
     <h2 class="header">ls <span class="header color">my-projects</span>/</h2>
 
-    <table class="table projs">
+    <div class="row-test">
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail t2t">
+                <img src="/public/proj-t2t-thumb.png" alt="Terp2Table Thumbnail">
+                <div class="caption">
+                    <h3 class="">Terp2Table</h3>
+                    <p class="proj-text">
+                        <span class="badges">
+                            <span class="badge badge-info">React</span>
+                            <span class="badge badge-info">Firebase</span>
+                            <span class="badge badge-info">Bootstrap</span>
+                            <span class="badge badge-info">Git</span> 
+                        </span><br><br>
+                        Crowdsource efficiently-produced meals in your apartment complex<br><br>
+                        <b><i>Best Sustainability Hack @ Technica 2023!</i></b>
+                    </p>
+                    <p><a href="https://github.com/candace-sun/technica-2023" target="_blank" class="btn btn-primary" role="button">GitHub</a> <a href="https://devpost.com/software/terp2table" target="_blank" class="btn btn-default"
+                            role="button">Devpost</a></p>
+                </div>
+            </div>
+        </div>
 
-        <!-- platepal -->
-        <tbody>
-            <tr>
-                <td><a data-toggle="collapse" data-parent="#accordion" href="#plate-pal">↪</a></td>
-                <td><b><a data-toggle="collapse" data-parent="#accordion" href="#plate-pal">PlatePal</a></b></td>
-                <td><i>Analyze your meals with just one picture</i></td>
-                <td>
-                    2024
-                </td> 
-            </tr>
-            <tr>
-                <td colSpan="10" id="plate-pal" class="collapse"> 
-                    Stay tuned!
-                </td>
-            </tr>
-        </tbody>
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail pp">
+                <img src="/public/proj-pp-thumb.png" alt="PlatePal Thumbnail">
+                <div class="caption">
+                    <h3>PlatePal</h3>
+                    <p class="proj-text"> 
+                        <span class="badges">
+                            <span class="badge badge-info">Node.js</span>
+                            <span class="badge badge-info">Express</span>
+                            <span class="badge badge-info">MongoDB</span>
+                            <span class="badge badge-info">Gemini AI</span> 
+                            <span class="badge badge-info">EJS</span> 
+                        </span><br><br>
+                        Analyze the health and quality of your meals with just one picture
+                    </p>
+                    <p><a href="https://github.com/candace-sun/plate-pal" target="_blank" class="btn btn-primary" role="button">GitHub</a> <a href="https://plate-pal-kh2k.onrender.com/" target="_blank" class="btn btn-default"
+                            role="button">Live Site</a></p>
+                </div>
+            </div>
+        </div>
 
-        <!-- frc -->
-        <tbody>
-            <tr>
-                <td><a data-toggle="collapse" data-parent="#accordion" href="#frc">↪</a></td>
-                <td><b><a data-toggle="collapse" data-parent="#accordion" href="#frc">FIRST Robotics Pit Scouting</a></b></td>
-                <td><i>Track other robotics teams' data at competitions</i></td>
-                <td>
-                    2024
-                </td> 
-            </tr>
-            <tr>
-                <td colSpan="10" id="frc" class="collapse"> 
-                    Stay tuned!
-                </td>
-            </tr>
-        </tbody>
+        
+        <div class="col-sm-6 col-md-4">
+            <div class="thumbnail frc">
+                <img src="/public/proj-frc-thumb.png" alt="Pit Scouting App Thumbnail">
+                <div class="caption">
+                    <h3>FIRST Robotics Scouting App</h3>
+                    <p class="proj-text"> 
+                        <span class="badges">
+                            <span class="badge badge-info">React</span>
+                            <span class="badge badge-info">Firebase</span>
+                            <span class="badge badge-info">APIs</span>
+                        </span><br><br>
+                        
+                        Quickly record stats of other robotics teams during fast-paced competitions<br><br>
+                        <i><b>Used by 100+ member team in a local competition with 30+ teams!</b></i>
+                    </p>
+                    <p><a href="https://github.com/candace-sun/frc-pit-scouting-app" class="btn btn-primary" target="_blank" role="button">GitHub</a> <a href="https://frc-pit-scouting-app.web.app/" target="_blank" class="btn btn-default"
+                            role="button">Live Site</a></p>
+                </div>
+            </div>
+        </div>
+        
+    </div>&nbsp;
+    <br href="#hobbies" id="hobbies" class="subhead-snap"><br> 
 
-        <!-- t2t -->
-        <tbody>
-            <tr>
-                <td><a data-toggle="collapse" data-parent="#accordion" href="#t2t">↪</a></td>
-                <td><b><a data-toggle="collapse" data-parent="#accordion" href="#t2t">Terp2Table</a></b></td>
-                <td><i>Crowdsourcing meals in your apartment complex<br>Best Sustainability Hack @ Technica 2023!</i></td>
-                <td>
-                    2023
-                </td> 
-            </tr>
-            <tr>
-                <td colSpan="10" id="t2t" class="collapse"> 
-                    Stay tuned!
-                </td>
-            </tr>
-        </tbody>
-
-        <!-- p2p -->
-        <tbody>
-            <tr>
-                <td><a data-toggle="collapse" data-parent="#accordion" href="#p2p">↪</a></td>
-                <td><b><a data-toggle="collapse" data-parent="#accordion" href="#p2p">Pencil2Print</a></b></td>
-                <td><i>Convert your handwritten notes to text</i></td>
-                <td>
-                    2022
-                </td> 
-            </tr>
-            <tr>
-                <td colSpan="10" id="p2p" class="collapse"> 
-                    Stay tuned!
-                </td>
-            </tr>
-        </tbody>
-    </table>
-
-    <br href="#other" id="other" class="subhead-snap"><br> 
-
-    <h2 class="header">git checkout my-<span class="header color">other-works</span></h2>
+    <h2 class="header">git checkout my-<span class="header color">hobby-work</span></h2>
 
     <div class="mono">
         ★ <a href="photography.html" class="underline">photography</a> ★ | 
@@ -330,6 +328,7 @@
         
     <img src="public/wave-3.png" class="shape-bottom" alt="wave line" />
     </div>
+    <br>
  
     <script src="https://kit.fontawesome.com/74e2056708.js" crossorigin="anonymous"></script>
     <footer id="contact" class="mono">
@@ -337,7 +336,7 @@
           <a class="icon" href="https://www.linkedin.com/in/candace-sun/" target="_blank"><label class="fab fa-linkedin"></label></a>&nbsp
           <a class="icon" href="mailto: candacesun2@gmail.com" target="_blank"><label class="fa fa-envelope"></label></a>&nbsp
           <br><br> 
-          2024 © Candace Sun
+          2024 © Candace Sun <span class="purple">❤</span>
           <br>
       </footer>
  

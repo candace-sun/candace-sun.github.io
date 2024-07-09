@@ -1,18 +1,19 @@
 let skills = 
 `{
-  languages: ['Python', 'JavaScript', 'HTML', 'CSS', 'Java', 'C', 'C++', 'SQL', 'R'],
-  tech: ['React', 'Firebase', 'Node.js', 'Express', 'MongoDB', 'Flask', 'AWS'],
+  languages: ['Python', 'JavaScript', 'HTML', 'CSS', 'Java', 'C', 'C++', 'SQL', 'R', 'Rust', 'OCaml'],
+  tech: ['React', 'Firebase', 'Node.js', 'Express', 'MongoDB', 'PostgreSQL', 'Flask', 'AWS'],
   interests: ['full-stack development', 'design and UI/UX', 'cloud computing', 'learning!']
 }`;
 
 let interests = 
 `I also enjoy:<br>
-> Hiking<br>
-> Music, and curating playlists <br>
-> Jewelry making<br>
-> Hitting the gym<br>
-> Learning about birds<br>
-> Watching TED Talks :)<br>`;
+• Hiking<br>
+• Music, and curating playlists <br>
+• Jewelry making<br>
+• Hitting the gym<br>
+• Learning about birds<br>
+• Playing Pokémon games<br>
+• Watching TED Talks!<br>`;
 
 document.getElementById("skills-list").innerHTML = skills;
 document.getElementById("interests").innerHTML = interests; 
