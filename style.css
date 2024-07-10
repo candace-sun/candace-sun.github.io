@@ -211,17 +211,6 @@ pre {
   box-shadow: 0 12px 15px -15px #2d3047;
 }
 
-.t2t {
-  border-bottom: 5px solid #A9F0C0;
-}
-.pp {
-  border-bottom: 5px solid #b7b7b7;
-}
-
-.frc {
-  border-bottom: 5px solid #7FD3E3;
-}
-
 .btn-primary {
   background-color: #2d3047;
 } 
@@ -241,6 +230,20 @@ pre {
   color:#e1e0de;
   font-size: 1.7rem;
   margin-bottom: -45px;
+}
+
+.projects-divider {
+  background-image: url("public/projs-divider.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-top: 33px;
+  height: 30rem;
+  margin-bottom: -24rem;
+  z-index: -100;
+  width: 105vw;
+  margin-left: -3.5rem;
+  margin-right: -5rem;
+  padding-top: 4rem;
 }
 
 .blink {
