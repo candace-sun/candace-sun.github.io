@@ -236,14 +236,17 @@ pre {
   background-image: url("public/projs-divider.svg");
   background-size: cover;
   background-repeat: no-repeat;
-  margin-top: 33px;
+  margin-top: -3px;
   height: 30rem;
-  margin-bottom: -24rem;
+  margin-bottom: -10rem;
   z-index: -100;
   width: 105vw;
   margin-left: -3.5rem;
   margin-right: -5rem;
-  padding-top: 4rem;
+  padding-top: 11.5rem;
+  padding-left: 3.5rem;
+  color:#e1e0de;
+  border-bottom: 17px solid #94bcb1;
 }
 
 .blink {
