@@ -757,6 +757,7 @@ a:hover {
     width: 250px;
     top: 4rem;
     margin-bottom: -7rem;
+    display: none;
   }
 
   table {
