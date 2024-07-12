@@ -98,6 +98,10 @@ h3 {
   background-image: url("public/photography-header-desktop.svg");
 }
 
+.writing-header {
+  background-image: url("public/writing-bg-desktop.svg");
+}
+
 .name {
   display: none;
 }
@@ -246,7 +250,7 @@ pre {
   padding-top: 11.5rem;
   padding-left: 3.5rem;
   color:#e1e0de;
-  border-bottom: 17px solid #94bcb1;
+  border-bottom: 13px solid #94bcb1;
 }
 
 .blink {
@@ -804,6 +808,10 @@ a:hover {
   .photo-header {
     background-image: url("public/photography-header-mobile.svg");
   }
+
+  .writing-header {
+    background-image: url("public/writing-bg-mobile.svg");
+  }  
 
   .peaks-divider, .divider-bottom { 
     display: none;

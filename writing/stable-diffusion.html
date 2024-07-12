@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script> -->
+
+    <link rel="stylesheet" href="../style.css" type="text/css" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="public/favicon-32x32.png"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="public/favicon-16x16.png"
+      sizes="16x16"
+    />
+
+    <title>Candace Sun - Writing</title>
+  </head>
+
+  <body>
+    <nav class="mono other-pages-nav">
+      <a class="nav-item nav-link" href="../index.html">HOME</a>
+      <a class="nav-item nav-link" href="../photography.html">PHOTOGRAPHY</a>
+      <a class="nav-item nav-link" href="../graphics.html">GRAPHIC DESIGN</a>
+      <a class="nav-item nav-link" href="../writing.html">WRITING</a>
+    </nav>
+    <div class="title-divider writing-header">
+    </div>
+    <br><br><br><br>
+
+    <h1><b>Complexities in Generative AI Art</b></h1>
+    <i
+      >Investigating the "invisible" inner workings of Stable Diffusion and the industry</i
+    >
+    <br /><span class="mono">---</span><br><br>
+
+    Artificial intelligence (AI) has been making waves in recent years, taking over industries and spawning entirely new ones. A particularly captivating subset of AI research is AI generated art, which involves the generation and rendering of complex images in seconds from a simple prompt provided by a user. One prominent model that has been paving the way for greater public access to these systems is Stable Diffusion, which is both free and open source, unlike its competitors. The availability of their source code allows for anyone to be able to customize its implementation for use in video games, film, augmented reality and other niche applications (Fatunde and Tse). The surge in popularity of programs like Stable Diffusion reflects excitement from investors about the revolutionary technology, but its widespread use is raising questions of what its long-term impacts will mean for the future of creatives.<br>
+<br>
+ Initially released in August 2022, Stable Diffusion was created by the startups Stability AI, focused on AI research and visual art, and Runway, which creates art tools enhanced by machine learning (Gonsalves). According to a blog post by Stability, the program&rsquo;s development was led by Patrick Esser from Runway and Robin Rombach from LMU Munich, building upon their previous work in latent diffusion models. At the most basic level, it works by taking in text input from users, which is fed into the model; it returns an image that illustrates the words in the form of art. Stability&rsquo;s CEO Emad Mostaque reported to Bloomberg that Stable Diffusion has over ten million daily users, and Stability has described it as &ldquo;bring[ing] the gift of creativity to all.&rdquo; They describe a vision of bringing the power of image generation to the public and unlocking even greater artistic possibilities. <br>
+<br>
+ Diving deeper into the structure of the model behind Stable Diffusion aids in understanding what the image generation process involves and why it works. To start, diffusion model technology was originally designed to remove noise from images; however, these models evolved to be so effective that they could generate realistic pictures from only noise as input, and they eventually became the basis for the AI art breakthrough (Gonsalves). Stable Diffusion&rsquo;s model is trained on the large-scale dataset LAION-5B, which contains 5.85 billion image-text pairs. Latent diffusion models are designed to pick up on the fundamental structure of its input dataset by translating the data to a simpler, lower dimensional latent space. This space maps what the model has learned from image training, or matching text to image, and is for understanding and analyzing the relationship between different data points (Arya). Stable Diffusion can create realistic and highly detailed images in part because the latent space of the network is able to process and apply the variety of image styles in the data, which results in a large assortment of output images that reflect the details in the input pictures. <br>
+<br>
+From this, it can be seen that the dataset is essential to the function of Stable Diffusion, and the bias in the composition of LAION-5B directly influences what the model can create. Upon examination, there is a clear overrepresentation of English text, with 2.3B English language samples, which is more than the 2.2B of data for over a hundred other languages combined. This is to be expected, as it is the most popular language on the internet by a large margin and is used on 60.4% of the top ten million websites; however, only 16.2% of the world population speaks English (Bhutada). Stable Diffusion&rsquo;s model card acknowledges that it may &ldquo;reinforce or exacerbate social biases,&rdquo; especially the historical norm of &ldquo;white and western&rdquo; cultures being the default used in research. While these footnotes are often overlooked by the average user, they are a stark warning that globally underrepresented cultures will continue to be stifled as the developed world leaps forward, a tale as old as time. <br>
+<br>
+Despite these ever-present undertones, many are unfazed; Mostaque has even said that he hopes other nations develop their own models to combat the &ldquo;monoculture of the internet&rdquo; (Vincent). But regarding Stability&rsquo;s contributions, high-profile investors have been wooed by Stable Diffusion&rsquo;s potential: Stability and Runway have received valuations of $1 billion and $500 million respectively, according to Forbes. However, it should be noted that Stability&rsquo;s operations are costly, with Business Insider reporting its expenditures as over $50 million. Stability cites its profits as coming from its AI products like DreamStudio, a pay-to-use web interface that runs Stable Diffusion, and AI consulting, supported by its private supercomputing resources, but it is unlikely these ventures can support the expenses of model maintenance. <br>
+<br>
+Stability and Stable Diffusion have also received attention from the tech giant Amazon, which &ldquo;quietly&rdquo; arranged a deal with them that provided Stability with over four thousand Nvidia GPUs to power their supercomputers with (Cai and Conrad). According to Yahoo Finance, the model runs and is trained in Amazon&rsquo;s AWS, a powerful cloud computing platform, and the AWS blog recently announced that AWS customers are able to &ldquo;fine-tune&rdquo; Stable Diffusion to custom datasets. These partnerships are intriguing in terms of possible developments, but Stability cutting deals with the &ldquo;deep-pocketed corporate behemoths&rdquo; that Mostaque condemns, in spite of their contributions of being open source, raises an interesting question of the end game (Vincent). To that end, consumers may want to watch out for the intentions of Big Tech in this field: as the lines between data ownership blur, content rights are fast becoming a concern that must be addressed. <br>
+<br>
+These issues are already coming to a head, with Stable Diffusion having been hit with major litigation in recent months. In January 2023, Getty Images filed a lawsuit against Stability for using its copyrighted images in the dataset. Three artists have also sued Stability, DeviantArt, an online art community, and Midjourney, another AI art platform, arguing that using images in their datasets without the consent of the original creators is copyright infringement. Karla Ortiz, one of the artists, states concerns with losing income to people using AI generated images for commercial purposes, but also mentions the risks to data protection and privacy, especially considering the lack of regulation at the moment (Heikkil&auml;). On its end, Stability redirects this burden back to its users, with Mostaque having said that &ldquo;[it is] peoples&rsquo; responsibility as to whether they are ethical, moral, and legal in how they operate this technology.&rdquo; The broader availability of Stable Diffusion can thus be seen as a double-edged sword; with the promise of cultivating unexplored creative potential comes the risks of crossing the line into misuse and exploitation. With great power comes great responsibility, but for who exactly?<br>
+<br>
+
+
+ <h3><a data-toggle="collapse" data-parent="#accordion" href="#refs">&gt; Works Cited </a></h3>
+<div id="refs" class="collapse">
+    Arya, Garvit. &ldquo;Power of Latent Diffusion Models: Revolutionizing Image Creation.&rdquo; Analytics Vidhya, 14 Jan. 2023, https://www.analyticsvidhya.com/blog/2023/01/power-of-latent-diffusion-models-revolutionizing-image-creation/. <br>
+<br>
+Beaumont, Romain. &ldquo;LAION-5B: A New Era of Open Large-Scale Multi-Modal Datasets.&rdquo; LAION, 31 Mar. 2022, https://laion.ai/blog/laion-5b/. <br>
+<br>
+Bhutada, Govind. &ldquo;Visualizing the Most Used Languages on the Internet.&rdquo; Visual Capitalist, 26 Mar. 2021, https://www.visualcapitalist.com/the-most-used-languages-on-the-internet/. <br>
+<br>
+Cai, Kenrick, and Alex Konrad. &ldquo;Six Things You Didn&rsquo;t Know About ChatGPT, Stable Diffusion And The Future Of Generative AI.&rdquo; Forbes, Forbes Media, 2 Feb. 2023, https://www.forbes.com/sites/kenrickcai/2023/02/02/things-you-didnt-know-chatgpt-stable-diffusion-generative-ai. <br>
+<br>
+Cai, Kenrick. &ldquo;Runway Raises $50 Million At $500 Million Valuation As Generative AI Craze Continues.&rdquo; Forbes, Forbes Media, 6 Dec. 2022, https://www.forbes.com/sites/kenrickcai/2022/12/05/runway-ml-series-c-funding-500-million-valuation/?sh=5fcbae9a2e64. <br>
+<br>
+Fatunde, Mureji, and Crystal Tse. &ldquo;Stability AI Raises Seed Round at $1 Billion Value.&rdquo; Bloomberg, 17 Oct. 2022, https://www.bloomberg.com/news/articles/2022-10-17/digital-media-firm-stability-ai-raises-funds-at-1-billion-value. <br>
+<br>
+&ldquo;General FAQ.&rdquo; Stability.ai, Stability AI, https://stability.ai/faq. <br>
+<br>
+Gonsalves, Robert A. &ldquo;Digital Art Showdown: Stable Diffusion, DALL-E, and Midjourney.&rdquo; Medium, Towards Data Science, 9 Nov. 2022, https://towardsdatascience.com/digital-art-showdown-stable-diffusion-dall-e-and-midjourney-db96d83d17cd. <br>
+<br>
+Heikkil&auml;, Melissa. &ldquo;This Artist Is Dominating AI-Generated Art. And He&rsquo;s Not Happy about It.&rdquo; MIT Technology Review, 16 Sept. 2022, https://www.technologyreview.com/2022/09/16/1059598/this-artist-is-dominating-ai-generated-art-and-hes-not-happy-about-it/. <br>
+<br>
+Lynley, Matthew. &ldquo;Stability AI, the Startup behind the Hot Text-to-Image Art Generator Stable Diffusion, Quietly Raised Funding at a $1 Billion Valuation.&rdquo; Business Insider, Insider, 11 Oct. 2022, https://www.businessinsider.com/stable-diffusion-stability-ai-1b-funding-round-midjourney-dalle-openai-2022-10. <br>
+<br>
+Madan, Vivek, and Heiko Hotz. &ldquo;Fine-Tune Text-to-Image Stable Diffusion Models with Amazon SageMaker JumpStart.&rdquo; AWS Machine Learning Blog, Amazon Web Services, 20 Feb. 2023, https://aws.amazon.com/blogs/machine-learning/fine-tune-text-to-image-stable-diffusion-models-with-amazon-sagemaker-jumpstart/. <br>
+<br>
+Rombach, Robin, and Patrick Esser. &ldquo;Stable Diffusion v1-4 Model Card.&rdquo; Hugging Face, https://huggingface.co/CompVis/stable-diffusion-v1-4. <br>
+<br>
+&ldquo;Stable Diffusion Launch Announcement.&rdquo; Stability.ai, Stability AI, 25 Aug. 2022, https://stability.ai/blog/stable-diffusion-announcement. <br>
+<br>
+Vincent, James. &ldquo;Anyone Can Use This AI Art Generator - That's the Risk.&rdquo; The Verge, Vox Media, 15 Sept. 2022, https://www.theverge.com/2022/9/15/23340673/ai-image-generation-stable-diffusion-explained-ethics-copyright-data. <br>
+<br>
+Wiggers, Kyle. &ldquo;Stability AI, the Startup behind Stable Diffusion, Raises $101M.&rdquo; Yahoo Finance, Yahoo, 17 Oct. 2022, https://finance.yahoo.com/news/stability-ai-startup-behind-stable-170151950.html. <br>
+
+    </div>
+<br>
+
+    <script
+      src="https://kit.fontawesome.com/74e2056708.js"
+      crossorigin="anonymous"
+    ></script>
+    <footer id="contact" class="mono">
+      <a class="icon" href="https://github.com/candace-sun" target="_blank"
+        ><label class="fab fa-github"></label></a
+      >&nbsp
+      <a
+        class="icon"
+        href="https://www.linkedin.com/in/candace-sun/"
+        target="_blank"
+        ><label class="fab fa-linkedin"></label></a
+      >&nbsp
+      <a class="icon" href="mailto: candacesun2@gmail.com" target="_blank"
+        ><label class="fa fa-envelope"></label></a
+      >&nbsp <br /><br />
+      2024 © Candace Sun <span class="purple">❤</span> <br />
+      <br />
+      <a id="footer-top" href="#">TOP ↑</a>
+      <br />
+    </footer>
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js"
+      integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
