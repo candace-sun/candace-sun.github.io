@@ -80,6 +80,20 @@ let file_map = {
         ["portugal/bird-and-statue.jpg", 'medium'],
 
     ],
+    "Guizhou, China": [
+        ["guizhou/fisherman.jpg", 'large'],
+        ["guizhou/huangguoshu.jpg", 'medium'],
+        ["guizhou/boat.jpg", 'large'],
+        ["guizhou/water-lily.jpg", 'medium'],
+        ["guizhou/damselfly.jpg", 'medium'],
+        ["guizhou/old-boat.jpg", 'large'],
+        ["guizhou/waters.jpg", 'medium'],
+        ["guizhou/rice-crops.jpg", 'large'],
+        ["guizhou/butterfly.jpg", 'medium'],
+        ["guizhou/sunset.jpg", 'medium'],
+        ["guizhou/row-of-falls.jpg", 'medium'],
+        ["guizhou/nightscape.jpg", 'medium'],
+    ],
     "Night in DC": [
         ["night-in-dc/car-1.jpg", 'medium'],
         ["night-in-dc/neon-sign.jpg", 'large'],
