@@ -564,7 +564,11 @@ a:hover {
 
 .photoItem--medium-fill {
   grid-column-end: span 2;
-  grid-row-end: span 4;
+  grid-row-end: span 3;
+  @media screen and (max-width: 768px) {
+    grid-column-end: auto;
+    grid-row-end: span 1;
+  }
 }
 
 .photoItem--large {

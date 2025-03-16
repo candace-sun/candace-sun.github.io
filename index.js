@@ -1,14 +1,14 @@
 let skills = `{
-  <b>languages</b>: ['Python', 'JavaScript', 'HTML', 'CSS', 'Java', 'C', 'C++', 'SQL', 'R', 'Rust', 'OCaml, 'TypeScript'],
-  <b>tech:</b> ['React & React Native', 'Firebase', 'Node.js', 'MongoDB', 'Flask', 'AWS', 'Express', 'Tailwind', 'PostgreSQL', 'Docker'],
-  <b>interests:</b> ['full-stack development', 'design and UI/UX', 'cloud computing', 'learning!']
+  <b>languages</b>: ['Python', 'JavaScript', 'HTML', 'CSS', 'Java', 'C', 'C++', 'TypeScript', 'Assembly (x86 and MIPS)', 'Kotlin', 'SQL', 'R', 'Rust', 'OCaml'],
+  <b>tech:</b> ['React & React Native', 'Firebase', 'Node.js', 'MongoDB', 'Flask', 'AWS', 'Express.js', 'Tailwind CSS', 'Next.js', 'Vercel', 'PostgreSQL', 'Docker', 'Android Studio', 'd3.js', 'Tableau'],
+  <b>interests:</b> ['full-stack development', 'design and UI/UX', 'cloud computing', 'data visualization', 'learning!']
 }`;
 
 let interests = `I also enjoy:<br>
 • Hiking<br>
 • Music, and curating playlists <br>
 • Jewelry making<br>
-• Hitting the gym<br>
+• Hitting the gym and the climbing wall<br>
 • Learning about birds<br>
 • Playing Pokémon games<br>
 • Watching TED Talks!<br>`;

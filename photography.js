@@ -115,6 +115,53 @@ let file_map = {
         ["summer/female-blackbird.jpg", 'medium'],
 
     ],
+    
+    "Venice": [
+        ["italy/venice/waterfront_window.jpg", 'large'],
+        ["italy/venice/woman_with_umbrella.jpg", 'large'],
+        ["italy/venice/gondola_harbor.jpg", 'large'],
+        ["italy/venice/canal_bridge.jpg", 'large'],
+        ["italy/venice/passing_boat.jpg", 'large'],
+        ["italy/venice/san_marco_sign.jpg", 'large'],
+        ["italy/venice/three_kings.jpg", 'large'],
+        ["italy/venice/scenic_canal.jpg", 'large'],
+        ["italy/venice/gondola_view.jpg", 'large'],
+        ["italy/venice/rialto_bridge.jpg", 'large'],
+        ["italy/venice/gallerie_sign.jpg", 'large'],
+        ["italy/venice/passing_ferry.jpg", 'medium-fill'],
+        ["italy/venice/rainy_canal.jpg", 'large'],
+        ["italy/venice/rainbow_reflections.jpg", 'large'],
+        ["italy/venice/gold_altar.jpg", 'large'],
+        ["italy/venice/gondola_closeup.jpg", 'large'],
+        ["italy/venice/many_boats.jpg", 'large'],
+    ],
+    "Firenze": [
+        ["italy/firenze/church-window.jpg", 'large'],
+        ["italy/firenze/clock.jpg", 'large'],
+        ["italy/firenze/columns.jpg", 'large'],
+        ["italy/firenze/statues.jpg", 'large'],
+        ["italy/firenze/cyclist.jpg", 'large'],
+        ["italy/firenze/street.jpg", 'large'],
+        ["italy/firenze/two-worlds.jpg", 'medium-fill'],
+        ["italy/firenze/building.jpg", 'large'],
+        ["italy/firenze/gelateria.jpg", 'large'],
+        ["italy/firenze/niobe.jpg", 'large'],
+        ["italy/firenze/reflections.jpg", 'large'],
+        ["italy/firenze/bust.jpg", 'medium'],
+    ],
+    "Verona": [
+        ["italy/verona/boats.jpg", 'medium'],
+        ["italy/verona/city-park.jpg", 'large'],
+        ["italy/verona/sunset.jpg", 'large'],
+        ["italy/verona/doorframe.jpg", 'large'],
+        ["italy/verona/perching-bird.jpg", 'large'],
+        ["italy/verona/birds-eye.jpg", 'large'],
+        ["italy/verona/street-arch.jpg", 'large'],
+        ["italy/verona/duck.jpg", 'large'],
+        ["italy/verona/duck2.jpg", 'large'],
+        ["italy/verona/owl.jpg", 'medium'],
+        ["italy/verona/view.jpg", 'medium'],
+    ]
 };
 
 function renderGallery(category) {
