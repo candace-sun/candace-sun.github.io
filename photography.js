@@ -167,6 +167,21 @@ let file_map = {
     ["dc-spring/lincoln.jpg", "large"],
     ["dc-spring/fireworks.jpg", "large"],
   ],
+  "Kenilworth Gardens": [
+    ["kenilworth/yin-yang.jpg", "large"],
+    ["kenilworth/turtle.jpg", "large"],
+    ["kenilworth/perched.jpg", "large"],
+    ["kenilworth/shadows.jpg", "large"],
+    ["kenilworth/sunny-dragonfly.jpg", "large"],
+    ["kenilworth/sky.jpg", "large"],
+    ["kenilworth/dragonfly-lilypad.jpg", "large"],
+    ["kenilworth/mossy-turtle.jpg", "large"],
+    ["kenilworth/butterfly.jpg", "large"],
+    ["kenilworth/flower.jpg", "medium"],
+    ["kenilworth/reflection.jpg", "large"],
+    ["kenilworth/stems.jpg", "large"],
+    ["kenilworth/water-lily.jpg", "medium"],
+  ],
 };
 
 function renderGallery(category) {
